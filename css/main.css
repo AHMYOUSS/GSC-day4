@@ -1,0 +1,184 @@
+/* Start Main Rulez */ 
+
+body 
+{
+    background-color: #DDD;
+    direction: rtl;
+}
+
+.container 
+{
+    width: 940px;
+    margin:  20px auto ;
+    background-color: #FFF;
+    height: 1000px;
+}
+
+/* End Main Rulez */
+
+/* Start Header */ 
+
+header {
+    height: 100px;
+    background-color: #AAA;
+    position: relative;
+}
+
+header .logo 
+{
+    position: absolute;
+    height: 100px;
+    background: #ad5959;
+    width: 20%;
+    left: 40% ;
+    text-align: center;
+}
+
+header .logo p 
+{
+    position: absolute;
+
+   text-align: center;
+}
+
+header nav 
+{
+    height: 100px;
+    background: #888;
+    width: 80%;
+}
+
+/* End Header */ 
+
+/* Start Content */
+
+.content 
+{
+    height:500px;
+    background:#BBB;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .sidebar 
+{
+    float: right;
+    width: 30%;
+    position: absolute;
+    left: 15px;
+    background: #F6F6F6;
+    height: 500px;
+    position: relative;
+    
+}
+
+.content .sidebar .phone {
+    position: absolute;
+
+    padding-top: 50px;
+    width: 80%;
+    display: flex;
+    left: 25px;
+}
+
+.content .sidebar .phone .phone__screenInput{
+    position: absolute;
+
+    padding-top: 5px;
+    width: 85%;
+    display: flex;
+    left: 0px;
+}
+.phone__keybord {
+    position: absolute;
+    top: 80px;
+    width: 80px;
+}
+
+.phone__table table, th, td {
+    border: none;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px 29px;
+    text-align: left;    
+  } 
+
+  th, td a {
+   text-decoration: none;
+   color: #161616;
+   padding: 3px 10px;
+  } 
+
+ .call {
+   text-decoration: none;
+   color: #FFF;
+   background-color: #be7171;
+  } 
+ .decline {
+   text-decoration: none;
+   color: #FFF;
+   background-color: #71be8b;
+  } 
+  .content .products 
+  {
+      float: left ;
+      width: 69%;
+      background: #F1F1F1;
+      height: 500px;
+      position: relative;
+      
+  }
+
+  .content .products .user {
+  position: absolute;
+  top: 200px;
+  border: solid 1px;
+  }
+  .content .products .user .user__th {
+  border: solid 1px;
+  }
+
+.option {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #71be8b;
+}
+
+.option .contacts {
+    position: absolute;
+    width: 35%;
+    height: 40px;
+    background-color: #ad5959;
+}
+.option .history {
+    position: absolute;
+    left: 40%;
+    width: 35%;
+    height: 40px;
+    background-color: #595ead;
+}
+/* End Content */
+/* Start footer */
+
+footer 
+{
+    height:100px;
+    background:#ccc;
+}
+
+footer .info 
+{
+    height: 100px;
+    background-color: #676767;
+}
+
+footer .copyright 
+{
+    height: 20px;
+    background: rgb(20, 17, 17);
+}
+
+/* End footer */
